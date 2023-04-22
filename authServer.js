@@ -12,6 +12,7 @@ const port = 4000;
 let refreshTokens = []
 
 app.post('/token', (req, res) => {
+    //refresh token
   const refreshToken = req.body.token
   if (refreshToken == null) return res.sendStatus(401)
   if (!refreshTokens.includes(refreshToken)) return res.sendStatus(403)
