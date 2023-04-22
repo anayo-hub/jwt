@@ -1,5 +1,5 @@
 GET http://localhost:3000/posts
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiY3Jpc3MiLCJpYXQiOjE2ODIxOTc4MDMsImV4cCI6MTY4MjE5Nzg5M30.TMKmyV6vbXAUiwVW8CurMLtN5DLML33kneJVqVOxi-4
+Authorization: Bearer addthebearerhere
 
 ###
 POST http://localhost:4000/login
