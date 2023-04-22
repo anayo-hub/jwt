@@ -1,5 +1,5 @@
-GET http://localhost:3000/posts
-Authorization: Bearer addthebearerhere
+GET http://localhost:4000/posts
+Authorization: Bearer firsthere
 
 ###
 POST http://localhost:4000/login
@@ -14,12 +14,12 @@ Content-Type: application/json
 DELETE http://localhost:4000/logout Content-Type: application/json
 
 {
-"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiY3Jpc3MiLCJpYXQiOjE2ODIxOTc4MDN9.Lyhb1V_T7797J9p_O0u3PsTxhHEDJciEA5smWQt2lyw"
+"token": "refresh token inside"
 }
 
 ###
 POST http://localhost:4000/token Content-Type: application/json
 
 {
-"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiY3Jpc3MiLCJpYXQiOjE2ODIxOTc4MDN9.Lyhb1V_T7797J9p_O0u3PsTxhHEDJciEA5smWQt2lyw"
+"token": "Refere"
 }
